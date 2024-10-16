@@ -1,0 +1,63 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #000;
+
+}
+.pannel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.curousel{
+    height: 400px;
+    width: 800px;
+    border: 1px solid black;
+    margin-top: 10%;
+    position: relative;
+    overflow: hidden;
+}
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.btn1, .btn2 {
+    border: none;
+    background-color: transparent;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+.btn1{
+    left: 21.875rem;
+    top: 21.875rem;
+}
+.btn2{
+    right:21.875rem;
+    top: 21.875rem;
+}
+
+.arrow{
+    font-size: 4em;
+    color: #000;
+    padding: 10px;
+    
+   
+
+}
+.arrow:hover{
+    cursor: pointer;
+}
+
+.btn1{
+    border: none;
+    background-color:transparent;
+    margin-right: -3%;
+    z-index: 1;
+    
+}
+
