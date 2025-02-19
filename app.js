@@ -1,5 +1,5 @@
 let img = document.getElementById("img");
-let pics = ["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg", "6.jpg"];
+let pics = ["./images/1.jpg", "./images/2.jpg", "./images/3.jpg", "./images/4.jpg", "./images/5.jpg", "./images/6.jpg"];
 let count = 0;
 let interval;
 
@@ -10,7 +10,7 @@ function rotate(value) {
         if (count > 5) {
             count = 0;
         }
-    } else {a
+    } else {
         count--;
         if (count < 0) {
             count = 5;
